@@ -1,0 +1,13 @@
+[0326/210305.304:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0326/210305.318:ERROR:exception_snapshot_win.cc(98)] thread ID 5464 not found in process
+[0326/210305.565:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0326/210305.566:ERROR:exception_snapshot_win.cc(98)] thread ID 15000 not found in process
+[0328/191432.052:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0328/191432.064:ERROR:exception_snapshot_win.cc(98)] thread ID 38448 not found in process
+[0328/191432.349:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0328/191432.349:ERROR:exception_snapshot_win.cc(98)] thread ID 14316 not found in process
+[0328/214057.755:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\KBHARA~1\AppData\Local\Temp\scoped_dir8236_408105441\Crashpad: The system cannot find the file specified. (0x2)
+[0401/112518.722:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0401/112518.741:ERROR:exception_snapshot_win.cc(98)] thread ID 25992 not found in process
+[0401/112519.091:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0401/112519.091:ERROR:exception_snapshot_win.cc(98)] thread ID 12848 not found in process
