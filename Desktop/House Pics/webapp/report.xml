@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="0" hostname="USHYDKBHARATH01" name="pytest" skipped="0" tests="1" time="21.544" timestamp="2020-03-31T16:01:40.107632"><testcase classname="test_gmail.Test" file="test_gmail.py" line="8" name="test_gmail" time="21.386"></testcase></testsuite></testsuites>

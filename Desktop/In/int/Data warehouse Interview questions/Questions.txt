@@ -1,0 +1,18 @@
+Defect Life Cycle.
+Analytical functions .. 
+rank,dense rank, row_number.
+
+row_number :  Consecutive Sequential Number
+Rank : It Skips the Consecutive Sequential Number example: 1 , 2 ,2 , 4.
+Dense Rank: Even though duplicate exists it does not skip the consective sequential number.
+
+
+
+
+IBM InfoSphere Data Replication : (IIDR)
+1,2,3,5,8,13,20
+
+
+
+
+
