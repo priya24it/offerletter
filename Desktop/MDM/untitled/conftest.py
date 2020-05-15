@@ -4,6 +4,7 @@ import request
 from selenium import webdriver
 from selenium.webdriver import DesiredCapabilities
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.select import Select
 from selenium.webdriver.support.wait import WebDriverWait
 from webdriver_manager.driver import ChromeDriver
 
@@ -23,23 +24,18 @@ def setup(request):
     driver = webdriver.Chrome("C://Users//kbharathi//Desktop//MDM//WebApp//chromedriver//chromedriver.exe",chrome_options=options,desired_capabilities=capa)
 
    # driver.get("https://www.mysmartprice.com/mobile/apple-iphone-7-msp10208")
-    driver.get("https://www.softwaretestingmaterial.com/")
-    #driver.get("https://www.guru99.com/")
+    #driver.get("https://www.softwaretestingmaterial.com/")
+    driver.get("http://live.demoguru99.com/index.php/")
     request.cls.driver = driver
     #driver.find_element_by_partial_link_text()
     driver.maximize_window()
-
-
-
     #capabilities = DesiredCapabilities.CHROME.copy()
-   # webdriver.DesiredCapabilities.CHROME.copy()
-   # webdriver.ChromeOptions()
-
-
-
+    #  webdriver.DesiredCapabilities.CHROME.copy()
+    #  webdriver.ChromeOptions()
 
     yield
     driver.close()
+
 
 @pytest.fixture(params = [(1,2),(3,4)])
 def addidtion(request):

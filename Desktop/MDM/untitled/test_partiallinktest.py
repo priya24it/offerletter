@@ -10,7 +10,7 @@ from selenium.webdriver.common.by import By
 
 
 @pytest.mark.usefixtures("setup")
-
+@pytest.mark.skip
 class TestGuru99:
     def test_partialinktest(self):
         print("statred")
